@@ -1,3 +1,4 @@
+<div id = nindex>
 <% if @tweet.errors.present? %>
   <h3>エラーがあります。</h3>
   <ul>
@@ -12,3 +13,4 @@
     <%= f.text_field :message %>
     <%= f.submit 'ツイート' %>
 <% end %>
+</div>
